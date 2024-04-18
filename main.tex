@@ -1,0 +1,84 @@
+\documentclass[10pt,twocolumn]{article}
+
+% use the oxycomps style file
+\usepackage{oxycomps}
+
+% usage: \fixme[comments describing issue]{text to be fixed}
+% define \fixme as not doing anything special
+\newcommand{\fixme}[2][]{#2}
+% overwrite it so it shows up as red
+\renewcommand{\fixme}[2][]{\textcolor{red}{#2}}
+% overwrite it again so related text shows as footnotes
+%\renewcommand{\fixme}[2][]{\textcolor{red}{#2\footnote{#1}}}
+
+% read references.bib for the bibtex data
+\bibliography{references}
+
+% include metadata in the generated pdf file
+\pdfinfo{
+    /Title (Ethical Considerations for Mobile Application Campus Events)
+    /Author (Jesus Cornejo)
+}
+
+% set the title and author information
+\title{Ethical Considerations for Mobile Application Campus Events}
+\author{Jesus Cornejo}
+\affiliation{Occidental College}
+\email{cornejoj@oxy.edu}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+As modern culture continues to embrace the use of smartphones and mobile applications, the use of this technology in a school setting has been adopted to enhance student experiences. For instance, event networking apps like those developed by Guidebook Inc. \cite{Guidebook} that are designed to connect students within a campus community could present exciting opportunities, but also raise significant ethical concerns. This paper highlights the ethics surrounding event networking apps in educational settings to argue that their adoption in these settings require close inspection. 
+\subsection{Campus Events App}
+The Campus Event app is projected to offer a seamless communication experience by listing all events being held on campus to foster community building and enhances student experiences through reviews of the events. However, when designing event networking apps a delicate balance between innovation and ethical consideration is required.\cite{Appedus}
+
+\section{Data Privacy and Consent}
+One of the first areas of concern for campus mobile apps is data and privacy consent. These apps often depend on user data, ranging from personal information to event attendance and preferences. Institutions should be cautious that these applications are providing informed consent, transparency in data usage, and robust security measures.\cite{Appedus}\cite{UofW_IT}\cite{ANA_MobileMarketing}
+Informed consent requires that users are fully aware of what data is being collected, how it will be used, and with who it may be shared. One approach for the Campus Events app will be to implement clear and accessible privacy policies, obtain explicit consent from users before collecting sensitive data, and provide mechanisms for users to control their privacy settings.
+Transparency is another aspect, as institutions with the Campus Event app will have to clearly communicate with users on their data collection through the app and its usage practices. This could include informing users about third-party data sharing, data retention policies, and the reasons for which their data will be manipulated.
+Security measures, additionally, need to be robust to protect user data from unauthorized access, breaches, and misuse. For the Campus Events App this will include ensuring that it is with compliance with data protection regulations.
+
+\section{Inclusivity and Accessibility}
+While at first glance a Campus Events mobile app might offer convenience and efficiency, they also raise concerns regarding inclusivity and accessibility. The Campus Events mobile app is currently being developed for androids in android studios. This could be an issue of inclusivity because not all students will have equal access to android devices. 
+To address these concerns, institutions using the Campus Events app will potentially have to strive for alternative access options for students without androids in order to bridge the digital divide. For example, this could include the institution offering compatible devices on loan for use.
+Accessibility should also be considered, as campus apps must be designed to accommodate students with disabilities. This could mean ensuring that the Campus Events app is withholding to standards like the WCAG (Web Content Accessibility Guidelines)\cite{WCAG}, providing alternative formats for content, and having compatibility with assistive technologies.
+
+\section{Student Health: Balancing Personalization and Privacy}
+Mobile applications being implemented in school settings has the potential to impact student well-being and mental health\cite{UofW_IT}. Due to this, the use of Campus Events app poses ethical challenges related to privacy, notifications, and potential social pressure.
+Privacy concerns come from the collection of sensitive data like location and behavioral analytic information, which are often used to personalize app experiences. The Campus Events app will have to strike a balance between offering personalized features and respecting students privacy rights. This could be done through various design methods including minimizing data collection to what is strictly necessary and allowing for opt-out features for certain data processing activities.\cite{ANA_MobileMarketing}
+Notifications are another area of ethical concern because of the risk of excessive/ intrusive notifications contributing to app-induced stress or anxiety.\cite{Appedus} The Campus Events app should provide users with control over notification settings in order to accommodate to their needs and preferences.
+Social pressure within mobile apps that use social features can also impact student health by creating feelings of inadequacy, FOMO (fear of missing out), or social comparison. The Campus Events app will feature a comment/review activity that will need to comply with certain regulations so that the activity will promote positive interactions, create a supportive community, and discourage negative behaviors contributing to social pressures or cyberbullying.
+
+\section{Distraction}
+Additionally while a Campus Events app may offer a wide range of functionalities, it also has the potential to distract students from academic responsibilities. Therefore, ethical considerations in this context circle around balancing app features, usage limits, and promotion of responsible app usage during study hours.
+The Campus Event app should prioritize academics over social features, ensuring that the app is able to support student success. This could mean integrating a filter that displays events based on academic relevance, like having lecture seminars and guest-speaker events shown before sports/ student club events. Another filter could integrate a student's course schedule and remove events that overlap from the display. 
+Setting usage limits can also help mitigate distraction by providing a way for students to manage their app usage effectively. The Campus Events app will need to include features like app usage analytics to tell students if they've been on the app too much recently or provide additional time management tools.
+With the Campus Events app utilizing a learning-centered design approach, institutions can expect events to promote student success and minimize distractions from academics.\cite{Appedus}
+
+\section{Responsible Data Usage}
+In addition to privacy concerns, institutions should also be wary of ethical principles related to data usage. These principles include anonymization of data, research ethics, and making sure data is used in accordance with privacy norms.
+The Campus Events app is meant to improve student life on campus, and in order to protect user privacy while still allowing for data analysis and insights, anonymization of data could be essential. Anonymization of data could be implemented through techniques such as data aggregation, pseudonymization of some user information like names, and forms of de-identification to ensure that student identities are not compromised. 
+Research Ethics could play a role in how the app data is used for event research purposes. Institutions will have to adhere to some ethical guidelines established by Campus Events in order to obtain appropriate user data. This could include obtaining informed consent from users about data collection, ensuring data anonymization and complying with other requirements like institutional review board (IRB).
+Without upholding responsible data usage practices, Campus Events app could have a difficult time providing services, conducting research, and enhancing student life because students don't feel their privacy rights are respected. 
+
+\section{Social Responsibility: Campus Culture}
+Mobile apps can play a role in shaping campus culture and social interactions. This raises ethical considerations related to promoting positive interactions, preventing harm, and creating a respectful and inclusive community.
+Institutions should prioritize features and functionalities within apps that promote respectful communication, collaboration, and community engagement. For the Campus Events app facilitating support networks/events and promoting diversity and inclusion initiatives are examples.
+Preventing harm within app environments involves implementing policies and mechanisms to address issues such as cyberbullying, harassment, or inappropriate behavior. Institutions must have clear guidelines, reporting mechanisms, and disciplinary measures in place to respond effectively to harmful conduct within app communities.
+By promoting social responsibility within app ecosystems, institutions can create a positive and supportive campus culture that enhances student well-being, fosters meaningful connections, and contributes to a healthy learning environment.
+
+\section{Conclusion: Campus Events too Risky?}
+When taking these areas of ethical concerns into consideration for the Campus Events app perhaps its implementation in a campus like Occidental College could prove to be too difficult while maintaining ethical responsibility. The Campus Events app is focused on connecting students to events and creating a community through review section. There are many use cases that could highlight why such an app could be problematic or even detrimental to the campus community.
+For example, the app may inadvertently contribute to information overload or notification fatigue (similar to email problem that app is aiming to solve). A constant stream of event notifications, reminders, updates, may reduce student engagement with the app. 
+Secondly, the app could cause a sense of social pressure among students. By showcasing a wide array of events the app may cause a culture where students feel pressured to attend numerous events. This can be particularly detrimental to a student who already struggles with time management, academic responsibilities, or mental health issues like stress and anxiety.
+Another concern is Campus Events app may inadvertently marginalize certain student groups. For example, students who are less able to participate in social events due to personal reasons, other commitments, or accessibility challenges might feel overlooked/ excluded by an app that heavily promotes social gatherings. This could contribute to feelings of isolation and sense of not belonging within the campus community.
+And lastly, the data privacy and security implications of a Campus Events app cannot be ignored. With the collection of user data such as event attendance, preferences, and social interactions, there is potential for misuse, data breaches, or privacy violations. Students' personal information and activity patterns within the app could be exploited or compromised, leading to trust issues and concerns about surveillance or data exploitation.
+
+In essence, while a Campus Events app may offer convenience and centralization of event information, its unintended consequences in terms of information overload, social pressure, marginalization, and data privacy risks underscore why careful consideration and ethical safeguards are essential before implementing such a tool within a university or college environment.
+
+\printbibliography
+
+\end{document}
